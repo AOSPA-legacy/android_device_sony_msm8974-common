@@ -80,6 +80,7 @@ BOARD_SEPOLICY_UNION += \
     device.te \
     domain.te \
     file.te \
+    location.te \
     mac-update.te \
     mpdecision.te \
     radio.te \
@@ -87,6 +88,7 @@ BOARD_SEPOLICY_UNION += \
     sct.te \
     sensors.te \
     suntrold.te \
+    system_server.te \
     tad.te \
     ta_qmi.te \
     tee.te \
