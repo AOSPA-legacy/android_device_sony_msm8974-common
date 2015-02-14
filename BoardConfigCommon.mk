@@ -43,7 +43,6 @@ AUDIO_FEATURE_DISABLED_USBAUDIO := true
 AUDIO_FEATURE_ENABLED_EXTN_POST_PROC := true
 
 # Bionic
-TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 BOARD_USES_LEGACY_MMAP := true
 
 # Font
@@ -96,6 +95,7 @@ BOARD_SEPOLICY_UNION += \
     suntrold.te \
     system_server.te \
     tad.te \
+    taimport.te \
     ta_qmi.te \
     tee.te \
     thermanager.te \
